@@ -1,0 +1,53 @@
+body{
+    
+}
+header
+{
+    font-family: 'Ranchers', cursive;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.grid {
+
+    height: 420px;
+    width: 420px;
+    background-color:rgb(210, 105, 30);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+button
+{
+    margin: 10px;
+    background-color: blanchedalmond;
+    font-size: x-large;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+
+}
+
+.bomb {
+    border: 0.1px solid;
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+
+.safe {
+    border: 0.1px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.clicked {
+
+    background-color: #FFDEAD;
+}
